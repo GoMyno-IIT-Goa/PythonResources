@@ -17,9 +17,9 @@ iterable - an iterable like sets, lists, tuples, etc.
 
 Example continued:
 
-            scores = [12, 7, 15, 8]<br>
-            squared_scores = list(map(square, scores))<br>
-            print(squared_scores)<br>
+            scores = [12, 7, 15, 8]
+            squared_scores = list(map(square, scores))
+            print(squared_scores)
    
 Output:
 
@@ -33,8 +33,8 @@ sequence -  sequence which needs to be filtered, it can be sets, lists, tuples, 
         
 Example continued:
 
-        filtered = [lambda x : x >= 100, squared_scores]<br>
-        print(filtered)<br>
+        filtered = [lambda x : x >= 100, squared_scores]
+        print(filtered)
         
 Output:
 
