@@ -6,30 +6,31 @@ Each yield temporarily suspends processing, remembering the location execution s
 
 Generators are functions that return an iterable generator object. The values from the generator object are fetched one at a time instead of the full list together and hence to get the actual values you can use a for-loop, using next() or list() method.
       
-
-    def get_fibonacci2():
-      a, b = 0, 1
-      yield a
-      while b < 35:
+```py
+def get_fibonacci2():
+    a, b = 0, 1
+    yield a
+    while b < 35:
         yield b
         a, b = b, a + b
         
 
     for j in get_fibonacci2():
       print(j)
+```
 
-
-Output:<br>
-      0<br>
-      1<br>
-      1<br>
-      2<br>
-      3<br>
-      5<br>
-      8<br>
-      13<br>
-      21<br>
-      34<br>
-    
+Output:
+```py
+0
+1
+1
+2
+3
+5
+8
+13
+21
+34
+```
 
 
