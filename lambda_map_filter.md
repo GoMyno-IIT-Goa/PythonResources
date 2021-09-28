@@ -24,9 +24,8 @@ print(squared_scores)
 ```
 
 Output:
-```py
-[144, 49, 225, 64]
-```
+
+    [144, 49, 225, 64]
 
 # Filter
 Python’s filter() is a built-in function that allows you to process an iterable and extract those items that satisfy a given condition. 
@@ -41,6 +40,6 @@ print(filtered)
 ```
 
 Output:
-```py
-[144, 225]
-```
+
+    [144, 225]
+
