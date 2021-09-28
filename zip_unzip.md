@@ -14,11 +14,11 @@ for i in x:
 ```
 
 Output:
-```py
-('Riya', 'John')
-('Tina', 'Monica')
-('Tom', 'Jerry')
-```
+
+    ('Riya', 'John')
+    ('Tina', 'Monica')
+    ('Tom', 'Jerry')
+
 
 # Unzip Function
 
@@ -31,7 +31,7 @@ for i in y:
     print(i)
 ```
 Output:
-```py
-('Riya', 'Tina', 'Tom')
-('John', 'Monica', 'Jerry')
-```
+
+    ('Riya', 'Tina', 'Tom')
+    ('John', 'Monica', 'Jerry')
+
