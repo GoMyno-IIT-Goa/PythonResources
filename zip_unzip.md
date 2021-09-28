@@ -3,32 +3,35 @@
 The purpose of Python zip() method is to map the similar index of multiple containers so that they can be used just using as single entity. 
 
 Example:
+```py
+a = ("Riya", "Tina", "Tom")
+b = ("John", "Monica", "Jerry", "Rachel")
 
-    a = ("Riya", "Tina", "Tom")
-    b = ("John", "Monica", "Jerry", "Rachel")
-
-    x = zip(a, b)
+x = zip(a, b)
     
-    for i in x:
-      print(i)
-    
-Output:<br>
+for i in x:
+    print(i)
+```
 
-('Riya', 'John')<br>
-('Tina', 'Monica')<br>
-('Tom', 'Jerry')<br>
+Output:
+```py
+('Riya', 'John')
+('Tina', 'Monica')
+('Tom', 'Jerry')
+```
 
 # Unzip Function
 
 Unzipping means converting the zipped values back to the individual self as they were. This is done with the help of “*” operator.
 
 Example continued:
-
-    y = zip(*x)
-    for i in y:
-      print(i)
-
-Output:<br>
-
-('Riya', 'Tina', 'Tom')<br>
-('John', 'Monica', 'Jerry')<br>
+```py
+y = zip(*x)
+for i in y:
+    print(i)
+```
+Output:
+```py
+('Riya', 'Tina', 'Tom')
+('John', 'Monica', 'Jerry')
+```
