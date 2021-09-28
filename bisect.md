@@ -7,27 +7,29 @@ bisect(list, num, beg, end) :- This function returns the position in the sorted 
 
 
 Example:
-
-    import bisect
+```py
+import bisect
     
-    a = [1, 2, 2, 2, 4, 4, 9]
-    print(bisect.bisect(a, 4))
+a = [1, 2, 2, 2, 4, 4, 9]
+print(bisect.bisect(a, 4))
+```
     
 Output:
-
-    6
-
+```py
+6
+```
 
 bisect_left(list, num, beg, end) :- This function returns the position in the sorted list, where the number passed in argument can be placed so as to maintain the resultant list in sorted order. If the element is already present in the list, the left most position where element has to be inserted is returned. This function takes 4 arguments, list which has to be worked with, number to insert, starting position in list to consider, ending position which has to be considered.
 
 Example:
+```py
+import bisect
+    
+a = [1, 2, 2, 2, 4, 4, 9]
+print(bisect.bisect_left(a, 4))
+```
 
-    import bisect
-    
-    a = [1, 2, 2, 2, 4, 4, 9]
-    print(bisect.bisect_left(a, 4))
-    
 Output:
-
-    4
-
+```py
+4
+```
