@@ -28,7 +28,7 @@ Start a pull request to add resources. Our team will review it and add it to the
 
 ## ✉️ Feedback
 
-If you have any questions, ping - [@KartikeySharma](https://github.com/KartikeySharma)
+If you have any questions, ping - [@nandini-21](https://github.com/nandini-21),   
 
 ---
 
