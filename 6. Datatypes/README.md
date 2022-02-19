@@ -8,3 +8,21 @@ Integers and floating points are separated by the presence or absence of a decim
 Complex numbers are written in the form, x + yj, where x is the real part and y is the imaginary part. <br>
 
 We can use the type() function to know which class a variable or a value belongs to and isinstance() function to check if it belongs to a particular class. <br>
+
+'''py
+a = 5
+
+print(type(a))
+print(type(5.0))
+
+c = 5 + 3j
+print(c + 3)
+'''
+
+Output is:
+''' py
+<class 'int'>
+<class 'float'>
+(8+3j)
+True
+'''
